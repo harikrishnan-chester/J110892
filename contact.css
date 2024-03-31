@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    background-color: #000;
+    color: white;
+}
+/* Color */
+:root{
+    --pink: #F3B1CC;
+}
+/* ----- NAVIGATION BAR ----- */
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    background: var(--body-color);
+    padding-inline: 9vw;
+    transition: .3s;
+    z-index: 100;
+    background-color: #000;
+}
+.nav-logo{
+   position: relative;
+}
+.nav-logo-img{
+    height: 60px;
+    width: 100px;
+    margin: 15px;
+}
+.nav-name{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--text-color-third);
+}
+.nav-menu, .nav_menu_list{
+    display: flex;
+}
+.nav-menu .nav_list{
+    list-style: none;
+    position: relative;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding-inline: 15px;
+    margin-inline: 20px;
+}
+.nav_list a:hover{
+    color: #F3B1CC;
+}
+
+
+
+/* MAIN */
+main{
+   padding-top: 150px;
+   padding-bottom: 200px;
+   padding-left: 100px;
+   
+}
+.contain{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column  ;
+}
+
+
+.contain img{
+    height: 400px;
+}
+
+main h1{
+    margin-bottom: 30px;
+}
+
+
+/* Button */
+
+button{
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F3B1CC;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 0;
+    color: #000;
+
+}
+
+button:hover{
+    background-color: #000;
+    color: #F3B1CC;
+    border:  1px solid #F3B1CC;
+}
+
+#btn2{
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+#btn3{
+    padding-left: 119px;
+    padding-right: 119px;
+}
+
+
+/* ----- FOOTER BOX ----- */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-block: 40px 60px;
+}
