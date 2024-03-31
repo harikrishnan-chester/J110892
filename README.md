@@ -1,4 +1,5 @@
 # Website Development (Artefact) & Report 
+Lecturer : j.barnes@chester.ac.uk <br>
 Learning Outcomes Assessed <br> 
 Use standard web languages such as HTML and CSS in the production of web content.
 Use, effectively, a range of tools for working with and developing content for the Internet and the World Wide Web.
